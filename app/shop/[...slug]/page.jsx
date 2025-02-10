@@ -8,7 +8,7 @@ async function ShopDetail({params}) {
   return (
     <main>
         <div>ShopDetail</div>
-        <p>{slug.join(" / ")}</p>
+        <p>{slug?.length > 1 ? slug.join(" / ") : "shop" }</p>
     </main>
   )
 }

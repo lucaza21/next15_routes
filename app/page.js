@@ -10,6 +10,10 @@ export default function Home() {
       <Link href={"/shop/list"}>
         See Shop
       </Link>
+
+      <Link href={"/e-commerce/list"}>
+        See E-Commerce
+      </Link>
       <h1>Home Page</h1>
     </main>
   );

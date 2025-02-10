@@ -7,16 +7,16 @@ function ProjectList() {
         <div>ProjectList</div>
         <ul className={styles.ul}>
             <li>
-                <Link href="/shop"> shop </Link>
+                <Link href="/e-commerce"> e-c </Link>
             </li>
             <li>
-                <Link href="/shop/clothes"> Clothes </Link>
+                <Link href="/e-commerce/products"> products </Link>
             </li>
             <li>
-                <Link href="/shop/clothes/men"> Men </Link>
+                <Link href="/e-commerce/products/men"> Men </Link>
             </li>
             <li>
-                <Link href="/shop/clothes/woman/tshirts"> Woman </Link>
+                <Link href="/e-commerce/products/woman/home"> Woman </Link>
             </li>
             
         </ul>
