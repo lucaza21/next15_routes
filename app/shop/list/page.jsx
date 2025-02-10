@@ -7,15 +7,14 @@ function ProjectList() {
         <div>ProjectList</div>
         <ul className={styles.ul}>
             <li>
-                <Link href="/projects/jobit"> Jobit </Link>
+                <Link href="/shop/clothes"> Clothes </Link>
             </li>
             <li>
-                <Link href="/projects/carrent"> Carrent </Link>
+                <Link href="/shop/clothes/men"> Men </Link>
             </li>
             <li>
-                <Link href="/projects/hipnode"> Hipnode </Link>
+                <Link href="/shop/clothes/woman/tshirts"> Woman </Link>
             </li>
-
             
         </ul>
     </main>

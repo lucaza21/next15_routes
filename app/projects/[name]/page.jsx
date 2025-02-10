@@ -1,7 +1,8 @@
 
 async function ProjectDetail({params}) {
 
-    const name = (await params).name
+  const name = (await params).name
+  console.log(name)
   return (
     <main>
         <div>ProjectDetail</div>

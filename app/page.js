@@ -6,6 +6,10 @@ export default function Home() {
       <Link href={"/projects/list"}>
         See Projects
       </Link>
+
+      <Link href={"/shop/list"}>
+        See Shop
+      </Link>
       <h1>Home Page</h1>
     </main>
   );
